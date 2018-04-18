@@ -25,7 +25,7 @@ module twos_comp_2_sign_mag(D, sign_magnitude, sign_bit
 	 output wire [11:0] sign_magnitude;
 	 output wire sign_bit;
 	 
-	 
+	 //I don't think we can modify anymore, this looks good,  DON'T CHANGE ANYTHING
 	 assign sign_magnitude =  (D == 12'b100000000000) ? (12'b100000000000) :  
 											(D[11] == 1'b1) ? (~D + 1'b1) : D ;
 	 assign sign_bit = D[11];
