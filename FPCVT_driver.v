@@ -18,7 +18,7 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module FPCVT_driver(D, E, F, S);
+module FPCVT(D, E, F, S);
 	input wire [11:0] D; //12-bit twos comp
 	output wire [2:0] E; //exponent
 	output wire [3:0] F; //significand

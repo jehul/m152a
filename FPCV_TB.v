@@ -32,7 +32,7 @@ module FPCV_TB;
 	
 
 	// Instantiate the Unit Under Test (UUT)
-	FPCVT_driver uut (
+	FPCVT uut (
 		.D(D), .E(E), .F(F), .S(S)
 	);
 	
